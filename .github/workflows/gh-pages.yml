@@ -21,7 +21,11 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify && ls public
+        run: hugo --minify
+        working-directory: ./site
+
+      - name: CNAME
+        run: echo 'publiccodetest.code4japan.org' > ./public/CNAME
         working-directory: ./site
 
       - name: Deploy
