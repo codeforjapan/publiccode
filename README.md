@@ -1,5 +1,7 @@
 # Public Money Public Code – Source of publiccode.eu
 
+| ⚠️ This repository will be archived in the future, this config will no longer be maintained. Thanks for all the stars, help and brainstorms! |
+
 [![Build Status](https://drone.fsfe.org/api/badges/pmpc/website/status.svg)](https://drone.fsfe.org/pmpc/website)
 
 This website is the core of the "Public Money, Public Code" campaign. It is based on [Hugo](https://gohugo.io), a modern static website generator.
